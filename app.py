@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 # MySQL Database Connection (Hardcoded Credentials)
 db = mysql.connector.connect(
-    host="bgdnwc7b1uh7t9boigkl-mysql.services.clever-cloud.com",
-    user="uujchmp4eepyxky3",
-    password="47E6zD1nRysiv5oCRL2R",
-    database="bgdnwc7b1uh7t9boigkl",
+    host="bmytf9nfe7i5qjqtrxf6-mysql.services.clever-cloud.com",
+    user="uhhdjlbqrhzkbe5e",
+    password="kNptVMrJp1aFA37RdLbV",
+    database="bmytf9nfe7i5qjqtrxf6",
     port=3306
 )
 cursor = db.cursor()
